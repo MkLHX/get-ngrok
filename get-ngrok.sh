@@ -30,7 +30,7 @@ if [[ "linux" == "${os_type,,}" ]]; then
 
     mv ngrok /usr/local/bin/ngrok
     rm -f ngrok.zip
-else; then
+else
 
     echo "cannot use this script on other os than linux. Please submit PR on https://github.com/MkLHX/get-ngrok"
 
